@@ -8,6 +8,8 @@ A tiny **Manifest V3** Chrome extension: pick tabs from a window (or all windows
 copy their URLs to the clipboard, one per line — ready to drop into ChatGPT / Claude /
 whatever and say "go read these."
 
+![Copy Tab URLs popup](screenshot.png)
+
 ## What it does
 
 Click the icon → a checkbox for every tab. Tick the ones you want → **Copy**.
