@@ -1,8 +1,6 @@
 # Copy Tab URLs
 
-> **Made this because I had ~15 tabs open and copy-pasting every URL into an AI agent
-> one at a time — "research these for me" — was a pain.** Now I tick the tabs I want,
-> hit copy, paste once. Built it at home. That's it.
+> made this cuz i had 15 tabs and copy pasting them all into an agent to do the research for me was a pain
 
 `remake your own extensions #ownit`
 
