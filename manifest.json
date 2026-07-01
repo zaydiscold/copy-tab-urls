@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Tab URLs",
+  "version": "1.1.0",
+  "author": "Zayd @ ColdCooks (https://github.com/zaydiscold)",
+  "description": "Pick tabs from this window (or all windows) and copy their URLs — plain, numbered, or markdown links — one per line, ready to paste into an AI.",
+  "homepage_url": "https://github.com/zaydiscold",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Copy Tab URLs"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Ctrl+Shift+U", "mac": "Command+Shift+U" },
+      "description": "Open Copy Tab URLs"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

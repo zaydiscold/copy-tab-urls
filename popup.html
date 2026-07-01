@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Copy Tab URLs</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Copy Tab URLs</h1>
+      <div class="scope" id="scope" role="tablist" aria-label="Scope">
+        <button data-scope="window" class="active">This window</button>
+        <button data-scope="all">All windows</button>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Filter by title or URL…" autocomplete="off" />
+      <button id="select-all" title="Select all shown">All</button>
+      <button id="select-none" title="Deselect all">None</button>
+    </div>
+
+    <ul id="tab-list"></ul>
+    <p id="empty" class="hidden">No tabs match.</p>
+
+    <footer>
+      <div class="fmt" id="fmt" role="tablist" aria-label="Copy format">
+        <button data-fmt="plain" class="active" title="Just the URLs">URLs</button>
+        <button data-fmt="numbered" title="1. url">Numbered</button>
+        <button data-fmt="markdown" title="[title](url)">Markdown</button>
+        <button data-fmt="titleUrl" title="Title — url">Title + URL</button>
+      </div>
+      <div class="footrow">
+        <label id="dedupe-wrap" title="Drop duplicate URLs">
+          <input type="checkbox" id="dedupe" /> dedupe
+        </label>
+        <span id="count">0 selected</span>
+        <button id="copy-btn" disabled>Copy</button>
+      </div>
+    </footer>
+
+    <div id="toast" class="hidden">Copied!</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
