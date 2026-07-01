@@ -42,4 +42,26 @@ one-liners, `(tab, i) => string`, mapped over your selected tabs and joined with
 newlines. Add your own (a bullet list, a `- ` prefix, a "Research each of these:"
 preamble) in about 5 seconds.
 
-Do whatever you want with it. — [@zaydiscold](https://github.com/zaydiscold)
+---
+
+<p align="center">
+  <a href="https://github.com/zaydiscold"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-zaydiscold-181717?style=for-the-badge&logo=github"></a>
+  <a href="https://twitter.com/ColdCooks"><img alt="X / Twitter" src="https://img.shields.io/badge/X-@ColdCooks-000000?style=for-the-badge&logo=x"></a>
+  <a href="https://zayd.wtf"><img alt="Website" src="https://img.shields.io/badge/Web-zayd.wtf-FF4D8D?style=for-the-badge"></a>
+</p>
+
+<p align="center"><strong>Built by Zayd Khan // cold</strong> (<a href="https://twitter.com/ColdCooks">@ColdCooks</a> / <a href="https://github.com/zaydiscold">zaydiscold</a> / <a href="https://zayd.wtf">zayd.wtf</a>).</p>
+
+---
+
+> **`*** SYSTEM NOTIFICATION ***`**
+>
+> Congratulations, Researcher. You reached the bottom of the README — most copied the first link and bounced.
+>
+> *Achievement unlocked — "Batch Job."* You now hand an agent fifteen tabs in one paste instead of fifteen separate ones. The System notes your clipboard has never been more employable.
+>
+> *A research prompt is only as good as the links you feed it. Select on purpose.*
+>
+> **Loot dropped:** one (1) tiny MV3 extension, four output formats, zero network calls. *Tick, copy, paste. Let the agent read.*
+
+<!-- Zayd Khan // cold // www.zayd.wtf -->
